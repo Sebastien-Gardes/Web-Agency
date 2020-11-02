@@ -1,0 +1,79 @@
+nav ul {
+        display: flex;
+        justify-content:space-between ;
+        width: 500px;
+        float: right;
+        position: static;
+        margin-top: -50px;
+        }
+
+
+nav ul li {
+
+    height: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: ;
+    
+}
+
+
+header {
+    background-color: lightgray;
+    }
+
+.slider img {
+        width: 100%;
+    }
+
+.en-tete{
+    text-align: center;
+}
+
+.en-tete li{
+    display: inline-block;
+    background-color: grey;
+    border-radius: 2px;
+    font-size: 17px;
+}
+
+.flex-services ul li{
+    display: grid;
+    grid-template-columns:  5fr;
+    justify-content: right;
+
+
+}
+.flex-services  {
+
+    display: grid;
+    ;
+
+
+
+}
+
+.img-services {
+    display: flex;
+    flex:;
+    
+}
+
+.background-project{
+    background-color: lightgrey;
+}
+
+.portfolio  {
+
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-around;
+
+}
+
+ .portfolio img {
+     max-width: 30%;
+     justify-content: space-around;
+
+ }

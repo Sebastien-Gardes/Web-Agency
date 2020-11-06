@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -14,10 +15,10 @@
      
         <nav>
             <ul>
-                <li><a href="index.html">Acceuil</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="cv.html">Curriculum Vitae</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="acceuil.html">Acceuil</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>    
    
@@ -26,13 +27,20 @@
 </header>
 <body>
 
-<div class="slider">
+<div id="slider">
+<figure>
+    <div class="arrows prev"></div>
+<div class="arrows next"></div>
     <img src="images/slider/bg1.jpg" alt="">
+    <img src="images/slider/bg2.jpg" alt="">
+
+
+</figure>
 </div>
 
 <div class="en-tete">
     <h1>NOS SERVICES</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quos ex necessitatibus assumenda, odio minima cupiditate beatae maxime eaque unde. </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Alias quos ex necessitatibus assumenda, odio minima cupiditate beatae maxime eaque unde. </p>
 </div>
 
 <div class="flex-services">
@@ -54,13 +62,15 @@
     </div>
 
     <div class="en-tete">
-    <div class="background-project">
         <h1>NOS PROJETS</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quos ex necessitatibus assumenda, odio minima cupiditate beatae maxime eaque unde. </p>
-        <li><a href="index.html">Acceuil</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="cv.html">Curriculum Vitae</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <ul>
+        <li><a href="index.html">All Works</a></li>
+        <li><a href="portfolio.html">Creative</a></li>
+        <li><a href="cv.html">Corporate</a></li>
+        <li><a href="contact.html">Portfolio</a></li>
+        </ul>
+        <div class="scroller">
         <div class="portfolio">
             <img src="/images/portfolio/01.jpg" alt="">
             <img src="/images/portfolio/02.jpg" alt="">
@@ -73,12 +83,39 @@
             <img src="/images/portfolio/full.jpg" alt="">
 
         </div>
+        </div>
     </div>
 </div>
 
 
 </body>
-<footer>
+    <div class="contact">
 
+        <form action="#">
+            <h1 class="title">Contact Info</h1>
+            <h6>WebAgency SAS</h6>
+            <p>25 Rue d'Hauteville 75010 Paris <br>
+                Tel: 01 02 03 04 05
+            </p>
+            <br>
+            <label for="nom"></label>
+            <input type="text" id="Nom" placeholder="Name">
+
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email" required>
+
+            <label for="Subject"></label>
+            <input type="text" id="prenom" placeholder="Subject">
+
+            <label for="msg"></label>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
+
+        </div>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6881.915495554933!2d1.3641262029720722!3d43.51299383346593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1604310517527!5m2!1sfr!2sfr" width="1920" height="1000" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+<footer>
 </footer>
 </html>
